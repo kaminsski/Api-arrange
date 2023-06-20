@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.baslik{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 3%;
+}
+body{
+    background-color: sandybrown;
+
+}
+
+.flex-item{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-right: 30px ;
+  
+}
+.flex-item img{
+    width: 150px;
+    
+}
+.selects{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.selects select{
+    margin-left: -45px;
+}
+.selects button{
+    width: 100px;
+    background-color: darkred;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.icerik{
+    margin: 30px;
+    background-color: white;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.fav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    
+
+}
+.contact span{
+    border-radius: 200px;
+}
+
+.contact span:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    
+}
+.hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}
